@@ -34,7 +34,7 @@
     </div>
 
     <footer class="fixed-bottom mt-3 mb-3">
-        ©<span id="year"></span> wibits.es - Developed by <strong>GlobalDevelopers</strong>.
+        ©<span id="year"></span> <a href="https://wibits.es">Wibits.es</a> - Developed by <strong></strong>.
     </footer>
 
 

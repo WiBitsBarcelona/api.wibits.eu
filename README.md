@@ -7,7 +7,10 @@
 
 php artisan serve
 
-mphp81 artisan serve --port 8030
+mphp82 artisan serve --port 8030
+
+
+
 
 
 
