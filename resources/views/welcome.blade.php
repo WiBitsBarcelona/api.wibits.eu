@@ -10,30 +10,33 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <style>
         body,html{
             height:100%;
         }
     </style>
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
 
-<body style="background-color: #e6e6e6">
+<body style="background-color: rgba(185, 255, 173, 0.6)">
 
 <div class="container h-100">
     <div class="row h-100 justify-content-center align-items-center">
         <div class="col-md-12 text-center">
 
-            <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="150">
-                <img src="{{ asset('brand/images/company_logos/logo.svg') }}" alt="logo">
+            <div class="animate__animated animate__fadeInUp" style="border-radius: 2px">
+                <img src="{{ asset('brand/images/company_logos/logo.svg') }}" alt="logo" width="500" height="250">
             </div>
 
         </div>
     </div>
 
-    <footer class="fixed-bottom mt-3 mb-3">
+    <footer class="fixed-bottom m-3">
         ©<span id="year"></span> <a href="https://wibits.es">Wibits.es</a> - Developed by <strong>Wibits developers</strong>.
     </footer>
 
@@ -44,10 +47,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
+
+
 
 </body>
 
