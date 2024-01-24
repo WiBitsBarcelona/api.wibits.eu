@@ -33,6 +33,7 @@
                 <img src="{{ asset('brand/images/company_logos/logo.svg') }}" alt="logo" width="500" height="250">
             </div>
 
+            
         </div>
     </div>
 
