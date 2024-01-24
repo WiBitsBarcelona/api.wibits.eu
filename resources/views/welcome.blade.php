@@ -33,13 +33,11 @@
                 <img src="{{ asset('brand/images/company_logos/logo.svg') }}" alt="logo" width="500" height="250">
             </div>
 
-
-            
         </div>
     </div>
 
     <footer class="fixed-bottom m-3">
-        ©<span id="year"></span> <a href="https://wibits.es">Wibits.es</a> - Developed by <strong>Wibits developers</strong>.
+        ©<span id="year"></span> <a href="https://wibits.es">Wibits.es</a> - Developed by---- <strong>Wibits developers</strong>.
     </footer>
 
 
